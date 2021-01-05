@@ -559,7 +559,7 @@ footer div ul li
 	{
 		width: 94%;
 		margin: auto;
-		padding: auto;
+		
 	}
 
 	#hebergements h3, #hebergements_plus_populaires h3
@@ -888,7 +888,7 @@ footer div ul li
 				
 	}
 
-	#titre_slogan, #titre_slogan + p,
+	#titre_slogan, #titre_slogan + p
 	{
 			
 		margin-bottom: 21px;
@@ -1692,7 +1692,7 @@ footer div ul li
 	{
 		width: 100%;
 
-		background-image: cover;
+		background-size: cover;
 		background-position: center;
 
 		border-radius: 10px 10px 0px 0px;
