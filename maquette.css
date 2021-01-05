@@ -1,0 +1,1788 @@
+
+@font-face
+{
+	font-family: 'My_Raleway';
+	src: url('./police/static/Raleway-Regular.ttf') format('TrueType');
+}
+
+
+body
+{
+	font-family: 'My_Raleway', serif;
+}
+
+header
+{
+	
+	width: 88%;
+	margin: auto;
+
+
+}
+section
+{
+	width: 88%;
+	margin: auto;
+}
+
+
+
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#titre_menu_inscription
+{
+
+	margin-bottom: 20px;
+
+}
+
+#inscription
+{
+	color: #0065FC;
+	font-weight: bold;
+	display: inline-block;
+	
+}
+
+
+
+#ancre_bloc_hebergements_et_populaires:hover, #ancre_activites:hover
+{
+	
+	color: #0065FC;
+
+	
+}
+
+
+
+#rechercher
+{
+	font-size: 1.1em;
+}
+
+
+#rechercher_lieu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	margin-bottom: 21px;
+
+	font-weight: bold;
+
+	position: relative;
+
+}
+
+
+#icone_lieu
+{
+	display: inline-block;
+
+	padding: 14px;
+	margin-right: 0px;
+
+	background-color: #F2F2F2;
+
+	border: 2px solid #F2F2F2; 
+	border-radius: 10px 0px 0px 10px;
+
+
+}
+
+.fa-map-marker-alt
+{
+	color:  #000000;
+	
+}
+
+#rechercher_lieu input
+{
+	display: inline-block;
+	padding: 10px;
+	margin-right: 0px;
+
+	border: 2px solid #F2F2F2;
+
+	font-weight: bold;	
+
+}
+
+
+
+
+
+#filtres
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	font-weight: bold;
+}
+
+
+
+
+
+#choix_filtres .conteneur_filtres
+{
+	display: flex;
+}
+
+#choix_filtres .filtre
+{
+	
+	height: 30px;
+
+}
+
+#choix_filtres a
+{
+	display: inline-block;
+
+	padding-right: 15px; 	
+
+	border: 2px solid #DCDBDA;
+	border-radius: 2000px / 2100px;	
+
+
+
+}
+
+
+#choix_filtres i
+{
+
+	display: inline-block;
+	
+	position: relative;
+
+	color:  #0065FC;
+
+	width: 18px;
+
+	margin-right: 10px;
+
+	
+	padding: 12px;
+
+	left: -3px;
+	
+	background-color: #DEEBFF;
+	border-radius: 2000px / 2100px;
+
+	text-align: center;
+
+	transform: scale(1.1);
+
+}
+	
+#bloc_info
+{
+	margin-top: 20px;
+	margin-bottom: 35px;
+
+	display: flex;
+}
+
+#logo_info
+{
+	/*display: inline-block;
+	vertical-align: bottom;*/
+
+	width: 28px;
+	height: 28px;
+	margin-right: 5px;
+
+
+	text-align: center;
+	
+	border: 2px solid #DCDBDA;
+	border-radius: 15px;
+
+	color: #0065FC;
+
+
+}
+
+
+.fa-info
+{
+
+	margin: 6px;
+}
+
+#info
+{
+	/*display: inline-block;
+	vertical-align: center;*/
+	width: 90%;
+	padding: 5px;
+	
+	
+}
+
+
+
+
+#hebergements, #hebergements_plus_populaires
+{
+	background-color: #F2F2F2;
+	
+	margin-bottom: 20px;
+	
+	padding: 7px;
+	padding-top: 25px;
+
+	border-radius: 10px;
+
+
+
+}
+
+/*
+#hebergements
+{
+	margin-left: 0px;
+
+}
+*/
+
+
+
+.cadran
+{
+	padding: 3px;
+	
+	background-color: white; 
+	
+	border-radius: 10px;
+
+	box-shadow: 3px 3px 5px #CFCFCF;
+
+
+}
+
+.cadran:active
+{
+	transform: scale(1.50);
+}
+
+
+.fa-star
+{
+	color: #0065FC;
+}
+
+
+.grey
+{
+	color: rgb(207, 207, 207);
+}
+
+
+
+.sous_bloc_hebergements img
+{
+	border-radius: 10px 10px 0px 0px;
+}
+
+#sous_bloc_hebergements_plus_populaires .cadran
+{
+	height: 150px;
+
+}
+
+
+
+
+#sous_bloc_hebergements_plus_populaires img
+{
+	border-radius: 10px 0px 0px 10px;
+}
+
+
+#activites
+{
+
+	background-color: #F2F2F2;
+	background: white;
+	border-radius: 10px;
+}
+
+
+
+#sous_bloc_activites .cadran
+{
+	background: white;
+	
+}
+
+
+#sous_bloc_activites img
+	{
+		border-radius: 10px 10px 0px 0px;		
+		
+	}
+
+
+
+
+footer
+{
+	
+	margin-top: 100px;
+	background-color: #F2F2F2;
+
+}
+
+
+
+ footer ul
+ {
+ 	list-style-type: none;
+ 	text-align: left;
+ }
+
+ footer div ul li:nth-child(1)
+{
+	margin-top: 10px;
+	margin-bottom: 22px;
+}
+
+footer div ul li
+{
+	margin-bottom: 15px;
+}
+
+ footer ul a
+ {
+ 	text-decoration: none;
+ 	
+ }
+
+ 
+
+
+
+@media all and (max-device-width: 750px)
+{
+	header
+	{
+		width: 95%;
+		margin: auto;
+	}
+
+	#titre_menu_inscription
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#titre_slogan
+	{
+		margin-bottom: 30px;
+	}
+
+	.element_titre_menu_navigation:nth-child(1)
+	{
+		width: 50%;
+		order: 1;
+	}
+
+	.element_titre_menu_navigation:nth-child(2)
+	{
+		
+		order: 3;
+		width: 90%;
+		margin: auto;
+
+		display: flex;
+
+		font-weight: bold;
+
+	}
+
+
+	.element_titre_menu_navigation:nth-child(3)
+	{
+		width: 50%;
+		order: 2;
+		text-align: right;
+
+		padding-top: 12px;
+	
+	}
+
+	
+
+
+
+	#ancre_bloc_hebergements_et_populaires, #ancre_activites
+	{
+
+		text-align: center;
+		display: flex;
+		flex-direction: column-reverse;	
+		width: 50%;	
+
+	}
+	
+
+
+	#ancre_bloc_hebergements_et_populaires hr, #ancre_activites hr
+	{
+		opacity: 0.15;
+		margin-top: 15px;
+		width: 110%;
+		position: relative;				
+	}
+
+
+	#ancre_bloc_hebergements_et_populaires hr
+	{
+		left: -20px;
+	}
+
+	#ancre_bloc_hebergements_et_populaires:hover hr, #ancre_activites:hover hr
+	{
+		opacity: 1;
+		color: 	#0065FC;			
+	}
+
+
+
+
+	
+
+	#rechercher_lieu #loupe
+	{
+
+		display: inline-block;
+
+		padding: 14px;
+		margin-left: 0px;
+
+		background-color: #0065FC;
+
+		border-radius: 10px 10px 10px 10px;
+
+		
+		color: white;		
+		
+		position: relative;
+		left: -10px;
+		
+	} 
+
+
+	#lien_rechercher
+	{
+
+		display: none;
+
+	}
+
+
+
+	#choix_filtres
+	{
+		margin-bottom: 40px;
+	}
+
+	#filtres #titre_filtres
+	{
+		
+		margin-bottom: 20px;
+
+	}
+
+	
+
+	.conteneur_filtres
+	{
+		margin-bottom: 30px;
+	}
+
+	#choix_filtres .filtre
+	{
+	
+		margin-right: 14px;
+
+	}
+
+
+
+	section
+	{
+		width: 95%;
+		margin: auto;
+	}
+
+
+
+	#hebergements
+	{
+		background-color: white;
+	}
+
+	#bloc_hebergements_et_populaires
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+
+		width: 98%;
+		margin: auto;
+	}
+
+	#hebergements, #hebergements_plus_populaires
+	{
+		width: 99%;
+		margin: auto;
+		padding-right: 1px;
+		padding-left: 1px;
+	}
+
+	.sous_bloc_hebergements, #sous_bloc_hebergements_plus_populaires
+	{
+		width: 94%;
+		margin: auto;
+		padding: auto;
+	}
+
+	#hebergements h3, #hebergements_plus_populaires h3
+	{
+		width: 90%;
+		margin: auto;
+	}
+
+
+
+	#sous_bloc_hebergements_plus_populaires .cadran
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 98%;
+		margin-right: auto;
+		margin-left: auto;
+
+		
+
+	}
+
+	
+
+	#hebergements_plus_populaires .image_cadran
+	{
+		display: inline-block;
+		width: 135px;
+		height: 150px;
+		
+		background-size: cover;
+		background-position: center;
+
+		border-radius: 10px 0px 0px 10px;
+		
+	}
+
+
+	#hebergements_plus_populaires .image_1
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_2
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran
+	{
+		display: inline-block;
+		vertical-align: top;
+
+		margin-top: 6px;
+		margin-left: 10px;
+		
+		
+	}
+
+
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran h4
+	{
+
+		margin-top: 2px;
+		font-weight: bold;
+		margin-bottom: 4px;
+
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran p
+	{
+
+		font-size: 0.8em;
+		margin-top: 5px;
+
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran .prix
+	{
+
+		margin-top: 50px;
+
+	}
+	
+
+
+
+	.sous_bloc_hebergements .cadran
+	{
+		
+		margin-top: 15px;
+	
+	}
+
+	#hebergements .image_cadran, #activites .image_cadran
+	{
+		width: 100%;
+		height: 110px;
+		
+		background-size: cover;
+		background-position: center;
+
+		border-radius: 10px 10px 0px 0px;
+		
+	}
+
+
+	#hebergements .image_1
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	}
+	#hebergements .image_2
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	}
+	#hebergements .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	}
+
+	#hebergements .image_4
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	}
+	#hebergements .image_5
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	}
+	#hebergements .image_6
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	}
+
+
+	.sous_bloc_hebergements .cadran .description_cadran h4
+	{
+		
+		font-weight: bold;
+		margin-top: 2px;
+		margin-bottom: 4px;
+	}
+
+	.sous_bloc_hebergements .cadran .description_cadran p
+	{
+		font-size: 0.8em;
+		margin-top: 4px;
+	}
+	
+	#bloc_afficher_plus
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#bloc_afficher_plus #afficher_plus
+	{
+		width: 100px;
+	}
+
+
+
+	#activites h3, #sous_bloc_activites
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+
+
+	#activites .cadran
+	{
+		width: 100%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+
+
+
+	#sous_bloc_activites .cadran .image_1
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_2
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_3
+	{
+	
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_4
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_5
+	{
+	
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_6
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran h4
+	{
+		margin: 15px;
+	}
+
+
+
+	footer
+	{
+					
+		margin-top: 50px;		
+	}
+
+	#sous_footer
+	{
+		width: 95%;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+
+
+	}
+
+	footer div
+	{
+		margin-bottom: 30px;
+	}
+
+	
+
+	footer ul
+	{
+		padding-left: 13px;
+	}
+	
+
+		
+		
+}
+
+@media all and (min-device-width: 750px) and (max-device-width: 1200px)
+{
+
+	#titre_menu_inscription 
+	{
+		display: flex;
+		flex-direction: row;
+		
+		flex-wrap: wrap;
+
+		margin-bottom: 40px;
+		
+	}
+
+	.element_titre_menu_navigation:nth-child(1)
+	{
+		width: 90%;
+		margin: auto;
+		text-align: center;
+
+		margin-bottom: 30px;
+	}
+
+	.element_titre_menu_navigation:nth-child(2)
+	{
+		display: flex;		
+
+	}
+
+	.element_titre_menu_navigation:nth-child(3)
+	{
+		padding-top: 18px;
+			
+	}
+
+	#ancre_bloc_hebergements_et_populaires, #ancre_activites, #inscription
+	{
+		display: inline-block;
+		margin-right: 60px;
+		text-align: center;	
+
+		
+
+	}
+
+
+	#ancre_bloc_hebergements_et_populaires hr, #ancre_activites hr
+	{
+		opacity: 0;		
+		width: 100%;
+				
+	}
+
+	#ancre_bloc_hebergements_et_populaires:hover hr, #ancre_activites:hover hr
+	{
+		opacity: 1;	
+		color: #0065FC;
+				
+	}
+
+	#titre_slogan, #titre_slogan + p,
+	{
+			
+		margin-bottom: 21px;
+	}
+
+	#rechercher_lieu
+	{
+		margin-top : 40px;
+
+	}
+
+	
+	#loupe
+	{
+		display: none;
+	}
+
+
+
+	#lien_rechercher
+	{
+		display: inline-block;
+
+		padding: 14px;
+		margin-left: 0px;
+
+		background-color: #0065FC;
+
+		border-radius: 0px 10px 10px 0px;
+
+		
+		color: white;		
+		
+		
+	}
+
+	
+
+	#choix_filtres
+	{
+		
+		display: flex;
+		flex-direction: row;
+		
+		flex-wrap: wrap;
+
+	}
+
+	#titre_filtres
+	{
+		text-align: left;
+		width: 100%;
+	}
+
+	.conteneur_filtres
+	{
+		
+		margin-bottom: 40px;
+
+	}
+
+	
+	
+
+	.conteneur_filtres .filtre
+	{
+		margin-right: 25px;
+	
+	}
+
+	
+
+
+	#bloc_info
+	{
+
+		margin-top: 15px;
+		margin-bottom: 25px;
+
+	}
+
+	
+	#bloc_hebergements_et_populaires
+	{
+		margin-bottom: 50px;
+	}
+
+
+	#hebergements
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		margin-bottom: 40px;
+	}
+
+	#hebergements h3, #hebergements_plus_populaires h3
+	{
+		width: 100%;
+
+		margin-bottom: 40px;
+		padding-left: 4px;
+	}
+
+	.sous_bloc_hebergements
+	{
+		width: 48%;
+		display: flex;
+		flex-direction: column;
+		
+		margin-bottom: 30px;
+	}
+
+	#hebergements .cadran
+	{
+		width: 300px;
+		margin: auto;
+
+		margin-bottom: 25px;
+
+		padding: 4px;
+	}
+
+	#hebergements .image_cadran
+	{
+		width: 98%;
+		height: 130px;
+
+		margin: auto;
+
+
+		background-size: cover;
+		background-position: center;
+
+		border-radius: 10px 10px 0px 0px;
+	}
+
+
+
+
+
+
+	#hebergements .image_1
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	}
+	#hebergements .image_2
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	}
+	#hebergements .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	}
+
+	#hebergements .image_4
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	}
+	#hebergements .image_5
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	}
+	#hebergements .image_6
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	}
+
+	.sous_bloc_hebergements .cadran .description_cadran
+	{	
+
+		padding-left: 15px;
+			
+	}
+
+	#bloc_afficher_plus
+	{
+		width: 90%;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	
+	#sous_bloc_hebergements_plus_populaires
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#hebergements_plus_populaires .cadran
+	{
+		padding: 7px;
+		display: flex;
+		margin-bottom: 20px;
+
+	}
+
+	#hebergements_plus_populaires .cadran:nth-child(1)
+	{
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	#hebergements_plus_populaires .image_cadran
+	{
+		width: 140px;
+		height: 100%;
+
+		border-radius: 10px 0px 0px 10px;
+
+		background-size: cover;
+		background-position: center;
+
+
+	}
+
+	
+
+	#hebergements_plus_populaires .description_cadran
+	{
+		margin-left: 10px;
+		
+	}
+
+
+	#hebergements_plus_populaires .image_1
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_2
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+	}
+
+
+
+	#activites h3
+	{
+		
+
+		margin-bottom: 30px; 
+		margin-right: 20px;
+
+
+	}
+
+	#sous_bloc_activites
+	{
+
+		display: flex;
+		flex-wrap: wrap;
+
+
+	}
+
+	.conteneur_sous_bloc_activites
+	{
+		
+		width: 100%;		
+		margin-bottom: 30px;
+	}
+
+	
+		
+	.conteneur_sous_bloc_activites:nth-child(2), .conteneur_sous_bloc_activites:nth-child(4)
+	{
+		display: flex;
+		
+	}
+
+
+
+	#sous_bloc_activites .cadran
+	{
+	
+			
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+
+
+	}
+
+	.conteneur_sous_bloc_activites:nth-child(2) .cadran, .conteneur_sous_bloc_activites:nth-child(4) .cadran
+	{
+		width: 50%;
+		
+	}
+
+
+
+	#activites .image_cadran
+	{
+
+		height: 290px;
+
+		background-position: center;
+		background-size: cover;
+
+		border-radius: 10px;
+
+	}
+
+
+	#sous_bloc_activites .cadran .image_1
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_2
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_3
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_4
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_5
+	{
+	
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_6
+	{
+		
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran h4
+	{
+		margin: 16px;
+		text-align: center;
+	}
+
+	footer
+	{
+		margin-top: 10px;
+
+	}
+	
+
+	#sous_footer
+	{
+		width: 88%;
+		display: flex;
+		justify-content: space-between;
+
+
+	}
+
+	#sous_footer div
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	
+
+	
+
+
+}
+
+
+
+@media all and (min-device-width: 1200px)
+{
+
+	
+	#titre_menu_inscription 
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+
+	.element_titre_menu_navigation:nth-child(1)
+	{
+		width: 20%;
+	}
+
+	#titre_logo
+	{
+		display: inline-block;
+		padding-top: 50px;
+	}
+
+	
+
+	.element_titre_menu_navigation:nth-child(2)
+	{
+		width: 70%;
+		display: flex;
+		justify-content: flex-end;
+
+	}
+
+	.element_titre_menu_navigation:nth-child(3)
+	{
+		
+		padding-top: 40px; 
+		
+	}
+
+
+	#ancre_bloc_hebergements_et_populaires, #ancre_activites, #inscription
+	{
+		display: inline-block;
+		margin: 19px;
+		
+
+	}
+
+	#ancre_bloc_hebergements_et_populaires, #ancre_activites
+	{
+		text-align: center;
+	}
+
+	#ancre_bloc_hebergements_et_populaires hr, #ancre_activites hr
+	{
+		opacity: 0;
+		margin-bottom: 30px;
+		width: 130px;
+				
+	}
+
+	#ancre_bloc_hebergements_et_populaires:hover hr, #ancre_activites:hover hr
+	{
+		opacity: 1;	
+		color: #0065FC;
+				
+	}
+
+
+	
+	#titre_slogan
+	{
+		margin-bottom: 6px;
+	}
+	#titre_slogan div
+	{
+		margin-right: 8px;
+	}
+
+	
+	header p
+	{
+		margin-top: 6px;
+	}
+
+
+
+	#lien_rechercher
+	{
+		display: inline-block;
+
+		padding: 14px;
+		margin-left: 0px;
+
+		background-color: #0065FC;
+
+		border-radius: 0px 10px 10px 0px;
+
+		
+		color: white;
+		
+		
+		
+	}
+
+	#loupe
+	{
+		display: none;
+	}
+
+
+	#titre_filtres
+	{
+		
+		display: inline-block;
+		vertical-align: bottom;
+		margin-right: 30px;
+		margin-bottom: 5px;
+
+
+	}
+
+	#choix_filtres
+	{	
+	
+
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+
+		margin-top: 0px;
+		margin-bottom: 40px;
+
+	}
+
+	
+
+	#choix_filtres .filtre
+	{
+	
+		margin-right: 26px;	
+
+	}
+
+
+
+	#bloc_hebergements_et_populaires
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+	
+	}
+
+	#hebergements, #hebergements_plus_populaires
+	{	
+		margin-right: 20px;
+	}
+
+
+
+	#hebergements h3, #hebergements_plus_populaires h3
+	{
+		margin: 15px;
+	}
+
+	.sous_bloc_hebergements
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		
+		
+	}
+
+	.sous_bloc_hebergements .cadran
+	{
+		
+		width: 230px;
+		margin: 7px;
+
+	}
+
+	#hebergements .image_cadran
+	{
+		width: 100%;
+		height: 110px;
+		
+		background-size: cover;
+		background-position: center;
+
+		border-radius: 10px 10px 0px 0px;
+		
+	}
+
+	#hebergements .image_1
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	}
+	#hebergements .image_2
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	}
+	#hebergements .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	}
+
+	#hebergements .image_4
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	}
+	#hebergements .image_5
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	}
+	#hebergements .image_6
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	}
+
+	.sous_bloc_hebergements .cadran .description_cadran
+	{	
+
+		margin-top: 10px;
+		margin-left: 20px;
+		
+	}
+
+	.sous_bloc_hebergements .cadran .description_cadran h4
+	{
+		
+		font-weight: bold;
+		margin-top: 2px;
+		margin-bottom: 4px;
+	}
+
+	.sous_bloc_hebergements .cadran .description_cadran p
+	{
+		font-size: 0.8em;
+		margin-top: 4px;
+	}
+
+
+
+
+	#sous_bloc_hebergements_plus_populaires
+	{
+		display: flex;
+		flex-direction: column;
+		/*justify-content: space-between;*/
+		/*align-items: center;*/
+
+		/*margin-left: 10px;*/
+
+		
+	}
+
+
+	#sous_bloc_hebergements_plus_populaires .cadran
+	{
+		margin: 15px;
+		width: 300px;	
+
+	}
+
+
+	#hebergements_plus_populaires .image_cadran
+	{
+		display: inline-block;
+		width: 135px;
+		height: 150px;
+		
+		background-size: cover;
+		background-position: center;
+
+		border-radius: 10px 0px 0px 10px;
+		
+	}
+
+	#hebergements_plus_populaires .image_1
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_2
+	{
+
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+
+	}
+
+	#hebergements_plus_populaires .image_3
+	{
+		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran
+	{
+		display: inline-block;
+		vertical-align: top;
+
+		margin-top: 6px;
+		margin-left: 10px;
+
+		
+		
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran h4
+	{
+
+		margin-top: 2px;
+		font-weight: bold;
+		margin-bottom: 4px;
+
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran p
+	{
+
+		font-size: 0.8em;
+		margin-top: 5px;
+
+	}
+
+	#sous_bloc_hebergements_plus_populaires .cadran .description_cadran .prix
+	{
+
+		margin-top: 50px;
+
+	}
+
+
+	
+ 
+	#sous_bloc_activites
+	{
+
+		display: flex;		
+		justify-content: space-between; 
+
+		height: 450px;
+
+	}
+
+	.conteneur_sous_bloc_activites
+	{
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-right: 25px;
+
+		width: 280px;
+		height: 100%;
+
+	}
+
+
+
+	#sous_bloc_activites .cadran
+	{
+
+		width: 100%;
+		max-height: 100%;
+		
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding: 0px;
+
+
+	}
+
+	#cadran_1, #cadran_4
+	{
+
+		height: 100%;
+
+	}
+
+	#cadran_2
+	{
+		height: 60%;
+	}
+
+	#cadran_3
+	{
+		height: 40%;
+	}
+
+	#cadran_5
+	{
+		height: 45%;
+	}
+
+	#cadran_6
+	{
+		height: 55%;
+	}
+
+	#sous_bloc_activites .cadran .image_cadran
+	{
+		width: 100%;
+
+		background-image: cover;
+		background-position: center;
+
+		border-radius: 10px 10px 0px 0px;
+
+		
+	}
+
+	#sous_bloc_activites .cadran .image_1
+	{
+		height: 380px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_2
+	{
+		height: 180px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_3
+	{
+		height: 130px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran .image_4
+	{
+		height: 380px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_5
+	{
+		height: 140px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+	}
+	#sous_bloc_activites .cadran .image_6
+	{
+		height: 170px;
+		background-image: url("./Projet_2_Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"); 
+	}
+
+	#sous_bloc_activites .cadran h4
+	{
+		margin: 15px;
+	}
+
+	#bloc_afficher_plus
+	{
+		
+		margin: 30px;
+
+		width: 100px;
+	}
+	
+
+	footer
+	{
+		
+		margin-bottom: 40px;		
+	}
+
+
+	footer #sous_footer
+	{				
+		width: 88%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		
+	}
+
+	footer div
+	{
+		margin-top: 40px;
+		width: 33%;
+		margin-bottom: 30px;
+		
+	}
+
+	
+
+	footer div ul
+	{
+		padding-left: 10px;
+	}
+
+	
+
+
+}
