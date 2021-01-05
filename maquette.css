@@ -1079,9 +1079,10 @@ footer div ul li
 	#sous_bloc_hebergements_plus_populaires
 	{
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		
 	}
 
 	#hebergements_plus_populaires .cadran
@@ -1092,11 +1093,7 @@ footer div ul li
 
 	}
 
-	#hebergements_plus_populaires .cadran:nth-child(1)
-	{
-		margin-right: 30px;
-		margin-left: 30px;
-	}
+	
 
 	#hebergements_plus_populaires .image_cadran
 	{
