@@ -8,12 +8,13 @@
 
 body
 {
+	/* On applique le style de la police sur toute la page */
 	font-family: 'My_Raleway', serif;
 }
 
 header
 {
-	
+	/* On definit d'emblee une largeur pour le header et le corps principal, mais pas le footer car le footer est cense s'etendre sur toute la largeur */
 	width: 88%;
 	margin: auto;
 
@@ -27,7 +28,7 @@ section
 
 
 
-
+/* pour eviter que le navigateur ne surligne en violet les liens deja visites */
 a
 {
 	text-decoration: none;
@@ -71,6 +72,7 @@ a
 
 #rechercher_lieu
 {
+	/* utilisation du flexbox pour aligner blocs utiliser pour la recherche de lieu */
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -79,6 +81,7 @@ a
 
 	font-weight: bold;
 
+	/* Utilisation de cette propriete pour manipuler la position de l'element enfant */
 	position: relative;
 
 }
@@ -99,12 +102,14 @@ a
 
 }
 
+
 .fa-map-marker-alt
 {
 	color:  #000000;
 	
 }
 
+/*  on aligne le champ de recherche de lieu a son icone et son lien de recherche  */
 #rechercher_lieu input
 {
 	display: inline-block;
@@ -196,9 +201,7 @@ a
 
 #logo_info
 {
-	/*display: inline-block;
-	vertical-align: bottom;*/
-
+	
 	width: 28px;
 	height: 28px;
 	margin-right: 5px;
@@ -249,14 +252,6 @@ a
 
 }
 
-/*
-#hebergements
-{
-	margin-left: 0px;
-
-}
-*/
-
 
 
 .cadran
@@ -272,18 +267,19 @@ a
 
 }
 
+/* on agrandit le cadran pour en principe apporter plus d'infos sur l'hebergement (image plus grande etc.)*/
 .cadran:active
 {
 	transform: scale(1.50);
 }
 
-
+/* colorier certaines etoiles en bleu */
 .fa-star
 {
 	color: #0065FC;
 }
 
-
+/* colorier certaines etoiles en gris */
 .grey
 {
 	color: rgb(207, 207, 207);
@@ -302,13 +298,6 @@ a
 
 }
 
-
-
-
-#sous_bloc_hebergements_plus_populaires img
-{
-	border-radius: 10px 0px 0px 10px;
-}
 
 
 #activites
@@ -373,7 +362,7 @@ footer div ul li
  
 
 
-
+/* cas ou le device est utilise est un smartphone */
 @media all and (max-device-width: 750px)
 {
 	header
@@ -381,6 +370,8 @@ footer div ul li
 		width: 95%;
 		margin: auto;
 	}
+
+	/* J'utilise le flexbox pour les aligner les blocs (contenant les onglets du menu) */
 
 	#titre_menu_inscription
 	{
@@ -394,6 +385,10 @@ footer div ul li
 	{
 		margin-bottom: 30px;
 	}
+
+	/* Dans le cas des smartphone, le menu de navigation s'etend sur deux lignes, avec le dernier onglet "inscription" qui doit repasser en premier devant. 
+		Je fais donc en sorte d'inverser l'ordre du menu et que le dernier onglet (devenu maintenant premier) prenne bien toute la place necessaire 
+		i.e. au moins la moitie de la largeur */
 
 	.element_titre_menu_navigation:nth-child(1)
 	{
@@ -440,7 +435,7 @@ footer div ul li
 	}
 	
 
-
+	/* Les pauses thematiques doivent etre grises lorsque le curseur ne survole pas les ancres */
 	#ancre_bloc_hebergements_et_populaires hr, #ancre_activites hr
 	{
 		opacity: 0.15;
@@ -455,6 +450,7 @@ footer div ul li
 		left: -20px;
 	}
 
+	/* les pauses thematiques doivent apparaitre au survol des ancres */
 	#ancre_bloc_hebergements_et_populaires:hover hr, #ancre_activites:hover hr
 	{
 		opacity: 1;
@@ -537,6 +533,7 @@ footer div ul li
 		background-color: white;
 	}
 
+	/* Je place en ligne les deux grands blocs contenant respectivement les hebergements et les hebergements plus populaires */
 	#bloc_hebergements_et_populaires
 	{
 		display: flex;
@@ -583,14 +580,18 @@ footer div ul li
 	}
 
 	
-
+	/* Comme mentionne dans le fichier "index.html" ligne 134, pour ajouter des images je ne passe pas par les balises "img" mais par le background pour 
+		obtenir et manipuler l'image avec un meilleur ration*/
 	#hebergements_plus_populaires .image_cadran
 	{
 		display: inline-block;
 		width: 135px;
 		height: 150px;
 		
+		/* Pour bien faire etendre l'image sur tout le bloc */
 		background-size: cover;
+
+		/* Pour centrer l'image */
 		background-position: center;
 
 		border-radius: 10px 0px 0px 10px;
@@ -600,7 +601,7 @@ footer div ul li
 
 	#hebergements_plus_populaires .image_1
 	{
-
+		/* Inclusion des fonds d'image */
 		background-image: url("./Projet_2_Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 
 	}
@@ -828,6 +829,8 @@ footer div ul li
 		
 }
 
+
+/* cas ou le device est utilise est une tablette */
 @media all and (min-device-width: 750px) and (max-device-width: 1200px)
 {
 
@@ -1279,7 +1282,7 @@ footer div ul li
 }
 
 
-
+/* cas ou le device est utilise est un pc ou autre telle que la largeur de l'ecran soit superieure a 1200 px */
 @media all and (min-device-width: 1200px)
 {
 
@@ -1355,10 +1358,7 @@ footer div ul li
 	{
 		margin-bottom: 6px;
 	}
-	#titre_slogan div
-	{
-		margin-right: 8px;
-	}
+	
 
 	
 	header p

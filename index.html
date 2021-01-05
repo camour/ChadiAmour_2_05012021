@@ -20,12 +20,18 @@
 
                     
                         <div class="element_titre_menu_navigation"> 
+
+                                <!-- on cree nos ancres avec leur pause thematique -->
+                                <!-- j'ai regroupe ces deux onglets ensemble pour faciliter la manipulation de ce bloc sur smartphone -->
                                 <a href="#bloc_hebergements_et_populaires" id="ancre_bloc_hebergements_et_populaires"><hr>  Hébergements </a>
                                 <a href="#activites" id="ancre_activites"><hr> Activités </a>  
+
                         </div>
 
                         
                         <div class="element_titre_menu_navigation"> 
+
+                                <!-- sur la maquette proposee, cet onglet ne semble pas avoir de pause thematique -->
                                 <a href="#" id="inscription">S'inscrire </a>
                         </div>                   
                       
@@ -36,13 +42,18 @@
                 
 
 
-                <h2 id="titre_slogan"> <div><strong>Trouvez votre hébergement pour des vacances de rêves</div></strong> </h2>
+                <h2 id="titre_slogan"> <strong>Trouvez votre hébergement pour des vacances de rêves</strong> </h2>
                 <p> En plein centre-ville ou en pleine nature </p>
 
+                <!-- remarque : on aurait aussi pu passer par un formulaire -->
                 <div id="rechercher_lieu">
                                      
                                 <span id="icone_lieu"><i class="fas fa-map-marker-alt"></i></span>
+
+                                <!-- champ de recherche du lieu -->
                                 <input type="text" name="rechercher" id="rechercher" value="Marseille, France">
+
+                                <!-- on aurait pu utiliser un bouton de type submit a la maniere d'un formulaire -->
                                 <a href="#" id="lien_rechercher"> Rechercher </a> <a href="#" id="loupe"><i class="fas fa-search"></i></a>
 
                 </div> 
@@ -56,24 +67,35 @@
 
                                         <h4 id="titre_filtres">Filtres</h4>
 
+                                        <!-- Je definis des blocs "conteneur_filtres" pour ensuite utiliser le flexbox et manipuler plus facilement les elements en responsif -->
                                         <div class="conteneur_filtres">
+
                                             <div class="filtre"><a href="#"><i class="fas fa-dollar-sign"></i>Economique</a></div>
                                             <div class="filtre"><a href="#"><i class="fas fa-user"></i>Familial</a></div>
+
                                         </div>
 
                                         <div class="conteneur_filtres">
+
                                             <div class="filtre"><a href="#"><i class="fas fa-heart"></i>Romantique</a></div>
+
                                         </div>
 
                                         <div class="conteneur_filtres">
+
                                             <div class="filtre"><a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></div>
+
                                         </div>
                                     
                                 </div>
 
 
                             <div id="bloc_info">
+
+                                <!-- je definis un bloc "logo_info" pour creer les bordures arrondies -->
+
                                 <div id="logo_info"><i class="fas fa-info"></i></div><div id="info">Plus de 500 logements sont disponibles dans cette ville </div>
+
                             </div>
 
                 </div>
@@ -95,26 +117,56 @@
                     <div id="hebergements">
 
 
-                             <h3>Hébergements à Marseille</h3>
+                            <h3>Hébergements à Marseille</h3>
 
                             <div class="sous_bloc_hebergements">
 
-                                       <div class="cadran">  <a href="#"> <div class="image_cadran image_1"></div><div class="description_cadran"><h4>Hotel de la mer</h4><p>Nuit à partir de <strong>25€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
+                                        <!-- Un cadran represente un hebergement, son image et ses informations (nom de l'hebergement, notes etc.) -->
+
+                                       <div class="cadran"> 
+
+                                            <a href="#"> <div class="image_cadran image_1"></div><div class="description_cadran"><h4>Hotel de la mer</h4><p>Nuit à partir de <strong>25€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                        </div>
                                         
-                                       <div class="cadran">  <a href="#"> <div class="image_cadran image_2"></div><div class="description_cadran"><h4>Hotel du port</h4><p>Nuit à partir de <strong>52€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div> </a> </div>
+                                       <div class="cadran">
+
+                                            <!-- tres important : pour l'insertion des images, je n'utilise pas la balise "<img>" mais je passe par le background du bloc "image_cadran" ce qui me permettra de manipuler l'image avec un meilleur rendu -->
+
+                                            <a href="#"> <div class="image_cadran image_2"></div><div class="description_cadran"><h4>Hotel du port</h4><p>Nuit à partir de <strong>52€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div> </a> 
+
+                                        </div>
                                         
-                                        <div class="cadran">  <a href="#"> <div class="image_cadran image_3"></div><div class="description_cadran"><h4>Hotel Les mouettes</h4><p>Nuit à partir de <strong>76€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
+                                        <div class="cadran">  
+
+                                            <a href="#"> <div class="image_cadran image_3"></div><div class="description_cadran"><h4>Hotel Les mouettes</h4><p>Nuit à partir de <strong>76€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                        </div>
+
                             </div>
 
                             <div class="sous_bloc_hebergements">
-                                        <div class="cadran">  <a href="#"> <div class="image_cadran image_4"></div><div class="description_cadran"><h4>Hotel chez Amina</h4><p>Nuit à partir de <strong>46€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
 
-                                        <div class="cadran">  <a href="#"> <div class="image_cadran image_5"></div><div class="description_cadran"><h4>Auberge Le Panier</h4><p>Nuit à partir de <strong>23€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
+                                        <div class="cadran">
 
-                                        <div class="cadran">  <a href="#"> <div class="image_cadran image_6"></div><div class="description_cadran"><h4>Auberge La Cannebière</h4><p>Nuit à partir de <strong>96€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div> </a> </div>
+                                            <a href="#"> <div class="image_cadran image_4"></div><div class="description_cadran"><h4>Hotel chez Amina</h4><p>Nuit à partir de <strong>46€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                        </div>
+
+                                        <div class="cadran"> 
+
+                                            <a href="#"> <div class="image_cadran image_5"></div><div class="description_cadran"><h4>Auberge Le Panier</h4><p>Nuit à partir de <strong>23€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                        </div>
+
+                                        <div class="cadran">  
+
+                                            <a href="#"> <div class="image_cadran image_6"></div><div class="description_cadran"><h4>Auberge La Cannebière</h4><p>Nuit à partir de <strong>96€</strong></p><p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div> </a> 
+
+                                        </div>
                             </div>
                                 
-                                  <div id="bloc_afficher_plus"><a href="#" id="afficher_plus"><strong>Afficher plus</strong></a></div>
+                            <div id="bloc_afficher_plus"><a href="#" id="afficher_plus"><strong>Afficher plus</strong></a></div>
                             
 
 
@@ -127,11 +179,24 @@
 
                             <div id="sous_bloc_hebergements_plus_populaires">
 
-                                   <div class="cadran">  <a href="#"> <div class="image_cadran image_1"></div></a> <a href="#"><div class="description_cadran"><h4>Hotel Le Soleil <br/>du matin</h4><p>Nuit à partir de <strong>128€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div>  </a> </div>
+                                   <div class="cadran"> 
 
-                                    <div class="cadran">  <a href="#"> <div class="image_cadran image_2"></div></a> <a href="#"><div class="description_cadran"><h4>Au coeur de l'eau <br/> Chambres d'hôtes</h4> <p>Nuit à partir de <strong>71€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
+                                        <a href="#"> <div class="image_cadran image_1"></div></a> <a href="#"><div class="description_cadran"><h4>Hotel Le Soleil <br/>du matin</h4><p>Nuit à partir de <strong>128€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></div>  </a> 
 
-                                    <div class="cadran">  <a href="#"> <div class="image_cadran image_3"></div></a> <a href="#"><div class="description_cadran"><h4> Hôtel Tout bleu et <br/>Blanc </h4><p>Nuit à partir de 6<strong>8€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> </div>
+                                    </div>
+
+                                    <div class="cadran">  
+
+                                        <a href="#"> <div class="image_cadran image_2"></div></a> <a href="#"><div class="description_cadran"><h4>Au coeur de l'eau <br/> Chambres d'hôtes</h4> <p>Nuit à partir de <strong>71€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                    </div>
+
+                                    <div class="cadran">  
+
+                                        <a href="#"> <div class="image_cadran image_3"></div></a> <a href="#"><div class="description_cadran"><h4> Hôtel Tout bleu et <br/>Blanc </h4><p>Nuit à partir de 6<strong>8€</strong></p><p class="prix"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></p></div> </a> 
+
+                                    </div>
+
                             </div>
 
                     </div>
@@ -148,34 +213,38 @@
 
                     <div id="sous_bloc_activites">
 
-                       
+                            <!-- La definition des blocs "conteneur_sous_bloc_activites" me permet ensuite de manipuler plus facilement le placement des elements
+                                avec flexbox -->
                             <div class="conteneur_sous_bloc_activites">
 
-                                <div class="cadran" id="cadran_1">  <a href="#"> <div class="image_cadran image_1"></div><h4>Vieux Port</h4> </a> </div> 
+                                    <div class="cadran" id="cadran_1">  <a href="#"> <div class="image_cadran image_1"></div><h4>Vieux Port</h4> </a> </div> 
 
                             </div>
                        
 
                        
                             <div class="conteneur_sous_bloc_activites">
-                                <div class="cadran" id="cadran_2"> <a href="#"> <div class="image_cadran image_2"></div><h4>Fort de Promègues</h4> </a> </div> 
 
-                                <div class="cadran" id="cadran_3">  <a href="#"> <div class="image_cadran image_3"></div><h4>Ile du Frioul</h4> </a> </div> 
+                                    <div class="cadran" id="cadran_2"> <a href="#"> <div class="image_cadran image_2"></div><h4>Fort de Promègues</h4> </a> </div> 
+
+                                    <div class="cadran" id="cadran_3">  <a href="#"> <div class="image_cadran image_3"></div><h4>Ile du Frioul</h4> </a> </div> 
+
                             </div>
                       
 
                        
                             <div class="conteneur_sous_bloc_activites">
-                                <div class="cadran" id="cadran_4">  <a href="#"> <div class="image_cadran image_4"></div><h4>Parc National des Calanques</h4>  </a> </div> 
+
+                                    <div class="cadran" id="cadran_4">  <a href="#"> <div class="image_cadran image_4"></div><h4>Parc National des Calanques</h4>  </a> </div> 
+
                             </div>
                      
 
                         <div class="conteneur_sous_bloc_activites">
 
-                           <div class="cadran" id="cadran_5">  <a href="#"> <div class="image_cadran image_5"></div><h4>Notre-Dame-de-la-Garde</h4> </a>  </div>
-                       
+                                    <div class="cadran" id="cadran_5">  <a href="#"> <div class="image_cadran image_5"></div><h4>Notre-Dame-de-la-Garde</h4> </a>  </div>                    
+                                    <div class="cadran" id="cadran_6">  <a href="#"> <div class="image_cadran image_6"></div><h4>Parc Longchamp</h4> </a> </div>
 
-                           <div class="cadran" id="cadran_6">  <a href="#"> <div class="image_cadran image_6"></div><h4>Parc Longchamp</h4> </a> </div>
                         </div>
 
                                             
@@ -195,7 +264,10 @@
 
         <footer>
 
+            <!-- On remarque que le footer s'etend sur l'ensemble de la page, or le contenu du footer reste lui aligne au reste de la page, je cree donc un bloc "sous-footer" qui lui, sera aligne au reste de la page et qui contiendra les infos du footer -->
+
             <div id="sous_footer">
+
                     <div>
                        
                         <ul>
