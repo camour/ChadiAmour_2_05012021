@@ -394,6 +394,7 @@ footer div ul li
 	{
 		width: 50%;
 		order: 1;
+		margin-bottom: 20px;
 	}
 
 	.element_titre_menu_navigation:nth-child(2)
