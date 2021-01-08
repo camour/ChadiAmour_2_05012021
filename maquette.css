@@ -1291,13 +1291,14 @@ footer div ul li
 	{
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		
 		
 	}
 
 	.element_titre_menu_navigation:nth-child(1)
 	{
 		width: 20%;
+		
 	}
 
 	#titre_logo
