@@ -363,7 +363,7 @@ footer div ul li
 
 
 /* cas ou le device est utilise est un smartphone */
-@media all and (max-device-width: 750px)
+@media all and (max-width: 750px)
 {
 	header
 	{
@@ -831,7 +831,7 @@ footer div ul li
 
 
 /* cas ou le device est utilise est une tablette */
-@media all and (min-device-width: 750px) and (max-device-width: 1200px)
+@media all and (min-width: 750px) and (max-width: 1200px)
 {
 
 	#titre_menu_inscription 
@@ -1283,7 +1283,7 @@ footer div ul li
 
 
 /* cas ou le device est utilise est un pc ou autre telle que la largeur de l'ecran soit superieure a 1200 px */
-@media all and (min-device-width: 1200px)
+@media all and (min-width: 1200px)
 {
 
 	
@@ -1680,12 +1680,12 @@ footer div ul li
 
 	#cadran_5
 	{
-		height: 45%;
+		height: 50%;
 	}
 
 	#cadran_6
 	{
-		height: 55%;
+		height: 50%;
 	}
 
 	#sous_bloc_activites .cadran .image_cadran
@@ -1708,13 +1708,13 @@ footer div ul li
 
 	#sous_bloc_activites .cadran .image_2
 	{
-		height: 180px;
+		height: 190px;
 		background-image: url("./Projet_2_Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"); 
 	}
 
 	#sous_bloc_activites .cadran .image_3
 	{
-		height: 130px;
+		height: 115px;
 		background-image: url("./Projet_2_Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"); 
 	}
 
@@ -1725,18 +1725,22 @@ footer div ul li
 	}
 	#sous_bloc_activites .cadran .image_5
 	{
-		height: 140px;
+		height: 155px;
 		background-image: url("./Projet_2_Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
 	}
 	#sous_bloc_activites .cadran .image_6
 	{
-		height: 170px;
+		height: 155px;
 		background-image: url("./Projet_2_Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"); 
 	}
 
 	#sous_bloc_activites .cadran h4
 	{
-		margin: 15px;
+
+		
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 3px;
 	}
 
 	#bloc_afficher_plus
