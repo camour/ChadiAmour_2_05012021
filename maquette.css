@@ -831,7 +831,7 @@ footer div ul li
 
 
 /* cas ou le device est utilise est une tablette */
-@media all and (min-width: 770px) and (max-width: 1340px)
+@media all and (min-width: 771px) and (max-width: 1340px)
 {
 
 	#titre_menu_inscription 
